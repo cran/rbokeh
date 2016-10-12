@@ -1,25 +1,26 @@
 # rbokeh
 
 [![Build Status](https://travis-ci.org/bokeh/rbokeh.svg?branch=master)](https://travis-ci.org/bokeh/rbokeh)
+[![codecov.io](https://codecov.io/github/hafen/rbokeh/coverage.svg?branch=master)](https://codecov.io/github/hafen/rbokeh?branch=master)
+[![CRAN](http://www.r-pkg.org/badges/version/rbokeh)](https://cran.r-project.org/package=rbokeh)
+[![](http://cranlogs.r-pkg.org/badges/rbokeh)](https://cran.r-project.org/package=rbokeh)
 
-R interface to Bokeh.
+A native R plotting library that provides a flexible declarative interface for creating interactive web-based graphics, backed by the Bokeh visualization library.
 
 ### Install
 
-rbokeh will be put on CRAN soon.  Until then, you can install from an alternative repo:
-
-```s
-options(repos = c(tessera = "http://packages.tessera.io", getOption("repos")))
+```r
+# from CRAN:
 install.packages("rbokeh")
-```
 
-Alternatively, you can install directly from github:
+# from packages.deltarho.org:
+options(repos = c(deltarho = "http://packages.deltarho.org", getOption("repos")))
+install.packages("rbokeh")
 
-```
+# from github:
 devtools::install_github("bokeh/rbokeh")
 ```
 
 ### Use
 
 Please see [here](http://hafen.github.io/rbokeh).
-
